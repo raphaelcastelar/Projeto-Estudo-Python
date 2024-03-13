@@ -11,7 +11,7 @@ produtos_ecommerce = [[10000, 2500],
                      [3300, 700],
                      [1900,400]]
 
-indice_livro = produtos_ecommerce[1][1]
-produtos_ecommerce[1][1] = indice_livro * 0.1 + indice_livro
+reajuste_livro = produtos_ecommerce[1][1] * 0.1
+produtos_ecommerce[1][1] = produtos_ecommerce[1][1] + reajuste_livro
 print(produtos_ecommerce)
 print(f"O aumento do custo mensal vai ser em média {(produtos_ecommerce[1][1] * 0.1) * produtos_ecommerce[1][0]}")
