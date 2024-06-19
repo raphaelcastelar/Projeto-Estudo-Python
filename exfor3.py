@@ -23,3 +23,4 @@ for vendeumais in acima_meta:
         maiorvenda = vendeumais[1]
         melhor_vend = vendeumais[0]
 print(maiorvenda, melhor_vend)
+print(acima_meta)
