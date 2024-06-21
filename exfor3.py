@@ -22,6 +22,6 @@ for vendeumais in acima_meta:
     if vendeumais[1] > maiorvenda:
         maiorvenda = vendeumais[1]
         melhor_vend = vendeumais[0]
-print(maiorvenda)
+print(maiorvenda, melhor_vend)
 
 
