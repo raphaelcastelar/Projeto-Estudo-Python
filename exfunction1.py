@@ -2,6 +2,8 @@ def ealcoolico(bebida):
     bebida = bebida.lower()
     if 'beb' in bebida:
         return True
+    else:
+        return False
     
 
 produtos = ['beb46275', 'TFA23962']
