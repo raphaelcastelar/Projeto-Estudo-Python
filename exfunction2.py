@@ -7,4 +7,4 @@ def calcular_imposto(preco, custo, lucro):
     porcentagem_imposto = valor_tributo / preco
     return porcentagem_imposto
 
-print('A carga tributária foi de {}'.format(calcular_imposto(preco, custo, lucro)))
+print('A carga tributária foi de {:.2%}'.format(calcular_imposto(preco, custo, lucro)))
