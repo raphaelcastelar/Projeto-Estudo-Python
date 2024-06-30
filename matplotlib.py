@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-vendas = np.random.randint(1000, 3000, 50)
-meses = np.arange(1, 51)
-print(meses)
+import matplotlib.pyplot as plt
+plt.plot([1,2,3],[4,2,5])
+plt.show()
