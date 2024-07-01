@@ -1,3 +1,4 @@
+
 meta = 1000
 vendas_produtos = [1500, 150, 2100, 1950]
 produtos = ['vinho', 'cafeteira', 'microondas', 'iphone']
@@ -16,3 +17,5 @@ print(list_compre)
 
 produto_acima_meta = [produto for i, produto in enumerate(produtos) if vendas_produtos[i] >= meta]
 print(produto_acima_meta)
+
+print(produto)
