@@ -11,3 +11,9 @@ preco_maximo = np.max(precos)
 preco_minimo = np.min(precos)
 variacao_preco = preco_maximo - preco_minimo
 print("O preço máximo foi de {}, o mínimo foi de {}, e a variação foi de {}".format(preco_maximo,preco_minimo,variacao_preco))
+
+quantidades = np.array([5,3,2])
+precos2 = np.array([100,200,50])
+
+total_vendas = np.dot(quantidades, precos2)
+print(total_vendas)
