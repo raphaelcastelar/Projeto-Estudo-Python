@@ -14,3 +14,6 @@ print(total_vendas_semana)
 
 total_media_semana = vendas_reshaped.mean(axis=1)
 print(total_media_semana)
+
+total_media_dia = vendas_reshaped.mean(axis=0)
+print(total_media_dia)
